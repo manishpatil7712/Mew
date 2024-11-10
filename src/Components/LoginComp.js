@@ -8,8 +8,8 @@ import Spinner from "./Spinner";
 import { getFirestore, doc, getDoc } from "firebase/firestore";
 
 const LoginComp = () => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("manishpatilw79@gmail.com");
+  const [password, setPassword] = useState("Mani2003#@");
   const [loading, setLoading] = useState(false);
   const [successMessage, setSuccessMessage] = useState(""); // Success message state
   const navigate = useNavigate();
