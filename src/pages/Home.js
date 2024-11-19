@@ -141,7 +141,7 @@ const Home = () => {
       <div className="w-full flex justify-center">
         <div className="w-full flex justify-center">
           <div className="flex flex-col space-y-3 w-full">
-            <TonConnectUIProvider manifestUrl="https://v2.bleggs.com/tonconnect-manifest.json">
+            <TonConnectUIProvider manifestUrl="https://meowzzzz.netlify.app/tonconnect-manifest.json">
               <UserProvider>
                 <AnimatePresence mode="wait">
                   <>
