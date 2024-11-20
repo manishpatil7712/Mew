@@ -4,13 +4,13 @@ import { getAuth, setPersistence, browserLocalPersistence } from 'firebase/auth'
 
 //* Add the Web App's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCa3SOlwwAZgiW1xH6nXJIlsG--CXe8Mno",
-  authDomain: "meow-9268d.firebaseapp.com",
-  projectId: "meow-9268d",
-  storageBucket: "meow-9268d.firebasestorage.app",
-  messagingSenderId: "184429401124",
-  appId: "1:184429401124:web:c96ff6df84a06582e2b4b1",
-  measurementId: "G-86GHX6QPFB",
+  apiKey: "AIzaSyD49Pnx3irtcOBTwEJxZcokSdAXeBIf4xs",
+  authDomain: "dogs-90dcc.firebaseapp.com",
+  projectId: "dogs-90dcc",
+  storageBucket: "dogs-90dcc.appspot.com",
+  messagingSenderId: "802013809969",
+  appId: "1:802013809969:web:0660022d2bb6d8ad0e3410",
+  measurementId: "G-G6Y5T6MMWE",
 };
 
 //* Initialize Firebase
