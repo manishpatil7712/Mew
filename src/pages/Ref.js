@@ -64,10 +64,10 @@ const Ref = () => {
 
   const handleShare = async () => {
     const shareData = {
-      title: "Mine $BLEGGS tokens now!",
+      title: "Mine $SNOW tokens now!",
       // eslint-disable-next-line
       url: `https://t.me/Meditation_earn_bot?start=r${id}\n\ `, // Replace with your link
-      text: "$GHOST tokens mining is live! Two is better than one!  Join my squad, and let's double the fun (and earnings 🤑)! $GHOST Power Tap! 🚀",
+      text: "$SNOW tokens mining is live! Two is better than one!  Join my squad, and let's double the fun (and earnings 🤑)! $SNOW Power Tap! 🚀",
     };
 
     if (navigator.share) {
@@ -85,7 +85,7 @@ const Ref = () => {
   const fallbackShare = (shareData) => {
     const encodedText = encodeURIComponent(
       // eslint-disable-next-line
-      `${shareData.url} \n\$GHOST tokens mining is live! Two is better than one!  Join my squad, and let\'s double the fun (and earnings 🤑)! $GHOST Power Tap! 🚀`
+      `${shareData.url} \n\$SNOW tokens mining is live! Two is better than one!  Join my squad, and let\'s double the fun (and earnings 🤑)! $SNOW Power Tap! 🚀`
     );
     const encodedUrl = encodeURIComponent(shareData.url);
 
@@ -184,7 +184,7 @@ const Ref = () => {
           <div className="w-full pt-3 justify-center flex-col space-y-3 px-5">
             <div className="w-full flex justify-center">
               <h1 className="font-semibold text-[28px] text-[#ffffffe0] pb-1 text-center">
-                Invite friends <br/>& get more $GHOST
+                Invite friends <br/>& get more $SNOW
               </h1>
             </div>
 
