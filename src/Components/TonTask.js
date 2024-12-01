@@ -21,7 +21,7 @@ const TonTask = () => {
   const [congrats, setCongrats] = useState(false);
   const bonusAward = 10000;
   const cost = '100000000'
-  const price = 0.2
+  const price = 0.0001
 
 
   useEffect(() => {
